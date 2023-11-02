@@ -11,8 +11,8 @@ https://www.kaggle.com/datasets/antimoni/metabolic-syndrome
 
 # Column Descriptors:
 
-**seqn:** Sequential identification number.
-**Age:** Age of the individual.
+1. **seqn:** Sequential identification number.
+2. **Age:** Age of the individual.
 **Sex:** Gender of the individual (e.g., Male, Female).
 **Marital:** Marital status of the individual.
 **Income:** Income level or income-related information.
