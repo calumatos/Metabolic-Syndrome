@@ -1,16 +1,23 @@
 # Mini-Project-SQL ###
 
 ## Metabolic Syndrome ##
-A Comprehensive Dataset on Risk Factors and Health Indicators
-
 by Elisa Cerdá Doñate & Carmen Matos
 
 
+### About Project
+We started with a Kaggle dataset, which we cleaned using our new skills in Python, using the Pandas library. 
+We then transferred the cleaned data to MySQL, where we ran queries and applied the knowledge we'd gained over the past few days. 
+We then applied the power of Tableau and Python to create visualisations and validate our hypotheses. 
+This whole process culminated in the integration of our findings into our final presentation.
+
+
 ### About Dataset
-This dataset contains information on individuals with metabolic syndrome, a complex medical condition associated with a cluster of risk factors for cardiovascular diseases and type 2 diabetes. The data includes demographic, clinical, and laboratory measurements, as well as the presence or absence of metabolic syndrome.
+A Comprehensive Dataset on Risk Factors and Health Indicators. This dataset contains information on individuals with metabolic syndrome, a complex medical condition associated with a cluster of risk factors for cardiovascular diseases and type 2 diabetes. The data includes demographic, clinical, and laboratory measurements, as well as the presence or absence of metabolic syndrome.
 https://www.kaggle.com/datasets/antimoni/metabolic-syndrome
 
+
 ### Column Descriptors:
+
 
 1. **seqn:** Sequential identification number.
 2. **Age:** Age of the individual.
