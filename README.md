@@ -3,6 +3,16 @@
 ## Metabolic Syndrome ##
 by Elisa Cerdá Doñate & Carmen Matos
 
+  content:    
+        
+        metabolic.ipynb, 
+        
+        metabolic.sql,  
+        
+        Metabolic Syndrome (Google Slides),
+        
+        README.md
+
 
 ### About Project
 We started with a Kaggle dataset, which we cleaned using our new skills in Python, using the Pandas library. 
