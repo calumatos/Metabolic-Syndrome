@@ -8,6 +8,8 @@ by Elisa Cerdá Doñate & Carmen Matos
         metabolic.ipynb, 
         
         metabolic.sql,  
+
+        metabolic.csv,
         
         Metabolic Syndrome (Google Slides),
         
