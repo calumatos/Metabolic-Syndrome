@@ -1,15 +1,15 @@
-### Mini-Project-SQL ###
+# Mini-Project-SQL ###
 
 ## Metabolic Syndrome ##
 A Comprehensive Dataset on Risk Factors and Health Indicators
 by Elisa Cerdá Doñate & Carmen Matos
 
 
-# About Dataset
+### About Dataset
 This dataset contains information on individuals with metabolic syndrome, a complex medical condition associated with a cluster of risk factors for cardiovascular diseases and type 2 diabetes. The data includes demographic, clinical, and laboratory measurements, as well as the presence or absence of metabolic syndrome.
 https://www.kaggle.com/datasets/antimoni/metabolic-syndrome
 
-# Column Descriptors:
+### Column Descriptors:
 
 1. **seqn:** Sequential identification number.
 2. **Age:** Age of the individual.
