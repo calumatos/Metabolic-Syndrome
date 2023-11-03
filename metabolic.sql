@@ -16,6 +16,8 @@ DROP TABLE metabolic_data;
 -- Then select your CSV file created from pandas
 
 
+USE metabolic_syndrome;
+ 
 -- Initial data exploration
 
 SELECT * FROM metabolic;
@@ -31,7 +33,7 @@ SELECT * FROM metabolic;
 -- Average age by sex for the whole sample
 
 SELECT AVG(age) AS avg_age, sex
-FROM metabolic_data
+FROM metabolic
 GROUP BY sex;
 
 
@@ -48,7 +50,7 @@ CASE
 	WHEN age >= 80 AND age <90 THEN 'age 80-89'
     ELSE 'not present'
 END AS age_group
-FROM metabolic_data
+FROM metabolic
 GROUP BY sex, age_group
 ORDER BY age_group ASC;
 
@@ -66,7 +68,7 @@ CASE
 	WHEN age >= 80 AND age <90 THEN 'age 80-89'
     ELSE 'not present'
 END AS age_group
-FROM metabolic_data
+FROM metabolic
 WHERE sex = 'female'
 GROUP BY sex, age_group, metabolicsyndrome
 ORDER BY age_group ASC;
@@ -88,7 +90,7 @@ SELECT
   END as age_group,
   SUM(CASE WHEN metabolicsyndrome = 1 THEN 1 ELSE 0 END) as with_metabolic_syndrome,
   SUM(CASE WHEN metabolicsyndrome = 0 THEN 1 ELSE 0 END) as without_metabolic_syndrome
-FROM metabolic_data
+FROM metabolic
 WHERE sex = 'Female'  
 GROUP BY age_group
 ORDER BY age_group ASC;
@@ -110,7 +112,7 @@ SELECT
   END as age_group,
   SUM(CASE WHEN metabolicsyndrome = 1 THEN 1 ELSE 0 END) as with_metabolic_syndrome,
   SUM(CASE WHEN metabolicsyndrome = 0 THEN 1 ELSE 0 END) as without_metabolic_syndrome
-FROM metabolic_data
+FROM metabolic
 WHERE sex = 'Female'
 GROUP BY age_group
 ORDER BY age_group ASC)
@@ -125,7 +127,7 @@ FROM female_age;
 -- Metabolic syndrome presence or lack thereof by marital status
 
 SELECT COUNT(marital) AS people_count, marital, metabolicsyndrome
-FROM metabolic_data
+FROM metabolic
 GROUP BY marital, metabolicsyndrome
 ORDER BY marital ASC;
 
@@ -145,7 +147,7 @@ CASE
 	WHEN income >= 8000 AND income <=9000 THEN '8-9 K'
     ELSE 'not present'
 END AS income_group
-FROM metabolic_data
+FROM metabolic
 GROUP BY income_group, metabolicsyndrome
 ORDER BY income_group ASC;
 
@@ -164,7 +166,7 @@ CASE
 	WHEN BMI >= 45 AND BMI <50 THEN 'BMI 45-50'
     ELSE 'not present'
 END AS BMI_group
-FROM metabolic_data
+FROM metabolic
 GROUP BY BMI_group, metabolicsyndrome
 ORDER BY BMI_group ASC;
 
@@ -186,7 +188,7 @@ SELECT
   END as bmi_group,
   SUM(CASE WHEN metabolicsyndrome = 1 THEN 1 ELSE 0 END) as with_metabolic_syndrome,
   SUM(CASE WHEN metabolicsyndrome = 0 THEN 1 ELSE 0 END) as without_metabolic_syndrome
-FROM metabolic_data
+FROM metabolic
 WHERE sex = 'Female'
 GROUP BY bmi_group
 ORDER BY bmi_group ASC)
