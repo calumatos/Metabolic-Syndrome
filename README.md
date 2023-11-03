@@ -8,6 +8,8 @@ by Elisa Cerdá Doñate & Carmen Matos
         metabolic.ipynb, 
         
         metabolic.sql,  
+
+        metabolic.csv,
         
         Metabolic Syndrome (Google Slides),
         
@@ -19,6 +21,8 @@ We started with a Kaggle dataset, which we cleaned using our new skills in Pytho
 We then transferred the cleaned data to MySQL, where we ran queries and applied the knowledge we'd gained over the past few days. 
 We then applied the power of Tableau and Python to create visualisations and validate our hypotheses. 
 This whole process culminated in the integration of our findings into our final presentation.
+https://docs.google.com/presentation/d/16EGRe1oyMNI7yUkB5nREUkts2iMQ4UPX8uNjUlf5D7E/edit
+
 
 
 ### About Dataset
