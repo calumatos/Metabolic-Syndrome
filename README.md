@@ -11,7 +11,7 @@ by Elisa Cerdá Doñate & Carmen Matos
 
         metabolic.csv,
         
-        Metabolic Syndrome (Google Slides),
+        Metabolic Syndrome (Google Slides) https://docs.google.com/presentation/d/16EGRe1oyMNI7yUkB5nREUkts2iMQ4UPX8uNjUlf5D7E/edit,
         
         README.md
 
