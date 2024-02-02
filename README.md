@@ -1,37 +1,29 @@
-# Mini-Project-SQL ###
+# Metabolic Syndrome, risk factors analysis ###
 
-## Metabolic Syndrome ##
-by Elisa Cerdá Doñate & Carmen Matos
+by Carmen Matos & Elisa Cerdá Doñate
 
   content:    
         
         metabolic.ipynb, 
-        
         metabolic.sql,  
-
         metabolic.csv,
-        
         Metabolic Syndrome (Google Slides),
-        
         README.md
 
 
-### About Project
-We started with a Kaggle dataset, which we cleaned using our new skills in Python, using the Pandas library. 
-We then transferred the cleaned data to MySQL, where we ran queries and applied the knowledge we'd gained over the past few days. 
-We then applied the power of Tableau and Python to create visualisations and validate our hypotheses. 
+### The project:
+We started with a Kaggle dataset, which we cleaned using the Pandas library in Python. 
+After transferring the cleaned data to MySQL, where we ran queries to extract insights, we created visualisations using Tableau and Python to validate our hypothesis. 
 This whole process culminated in the integration of our findings into our final presentation.
-https://docs.google.com/presentation/d/16EGRe1oyMNI7yUkB5nREUkts2iMQ4UPX8uNjUlf5D7E/edit
 
+[View PDF Presentation](https://github.com/calumatos/Metabolic-Syndrome/blob/main/Metabolic%20Syndrome.pdf)
 
-
-### About Dataset
+#### About the dataset:
 A Comprehensive Dataset on Risk Factors and Health Indicators. This dataset contains information on individuals with metabolic syndrome, a complex medical condition associated with a cluster of risk factors for cardiovascular diseases and type 2 diabetes. The data includes demographic, clinical, and laboratory measurements, as well as the presence or absence of metabolic syndrome.
 https://www.kaggle.com/datasets/antimoni/metabolic-syndrome
 
 
-### Column Descriptors:
-
+#### Column Descriptors:
 
 1. **seqn:** Sequential identification number.
 2. **Age:** Age of the individual.
