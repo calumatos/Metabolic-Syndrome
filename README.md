@@ -10,6 +10,10 @@ by Carmen Matos & Elisa Cerdá Doñate
         Metabolic Syndrome (Google Slides),
         README.md
 
+ <div>
+    <img src="https://github.com/calumatos/Metabolic-Syndrome/blob/main/Metabolic_Syndrome.png">         
+  </div>
+
 
 ### The project:
 We started with a Kaggle dataset, which we cleaned using the Pandas library in Python. 
